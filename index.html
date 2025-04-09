@@ -8,7 +8,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
     
-    <!---- Floating buttons-->
+    <!---- Floating whatsapp buttons-->
     <style>
         .feature-icon {
             width: 4rem;
@@ -22,6 +22,34 @@
             width: 50px;
             height: 50px;
             background-color: #25d366;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        #float-whatsapp img {
+            width: 40px;
+            height: 40px;
+        }
+        
+    </style>
+
+    <!---- Floating calling buttons-->
+    <style>
+        .feature-icon {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 0.75rem;
+        }
+        #float-call {
+            position: fixed;
+            bottom: 200px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #FF0000;
             border-radius: 50%;
             display: flex;
             justify-content: center;
@@ -212,6 +240,12 @@
     <!--=======================================================floating whatsapp Button==================================================================================-->
     <a id="float-whatsapp" href="https://wa.me/+917027768178" target="_blank">
       <img src="img/whatsapp.png" alt="WhatsApp">
+  </a>
+  <!--=======================================================================================================================================================================-->
+
+<!--=======================================================floating Call Button==================================================================================-->
+    <a id="float-call" href="tel:+917027768178" target="_blank">
+      <img src="img/whatsapp.png" alt="Call">
   </a>
   <!--=======================================================================================================================================================================-->
 
